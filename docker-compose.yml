@@ -12,7 +12,10 @@ services:
     volumes:
       - "/dev/:/dev/"
       - "./out/:/outputfiles/"
+      - "/tmp/.X11-unix:/tmp/.X11-unix"
     privileged: true
     build:
       context: .
       dockerfile: ./docker/Dockerfile
+    environment:
+      - "DISPLAY=$DISPLAY"
