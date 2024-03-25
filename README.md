@@ -2,12 +2,17 @@
 
 ### This repository is dedicated to docker container appliance for GQRX and RTL-SDR applications using Docker container.  
 
-[demopicture](./pictures/gqrx.png)
+![demopicture](./pictures/gqrx.png)
+
+### Prerequisites Before you begin, ensure you have the following packages installed on your system, for these repository, the Docker host machine **need to be linux for X11 works!**
+
+- Git version 2.34.1
+- Docker version 24.0.6, build ed223bc
+- Docker Compose version v2.21.0
 
 ---
 ### Getting Started: 
 
-The repository has 
 
 ```
 root@root:~$ gqrx 
