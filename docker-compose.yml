@@ -1,0 +1,18 @@
+# Main composition file for SIG Application Container.
+# Author: Arthur Cadore M. Barcella
+# Github: arthurcadore
+# Capacitação Redes - PV Intelbras
+
+version: '3.8'
+services:
+  radioanalyser:
+    container_name: radioanalyser
+    ports:
+      - '1025:22' # sshservice port
+    volumes:
+      - "/dev/:/dev/"
+      - "./out/:/outputfiles/"
+    privileged: true
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
