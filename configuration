@@ -1,0 +1,94 @@
+ 1  apt-get install sshd
+    2  apt-get install openssh-server
+    3  shs
+    4  apt-get install ssh-server
+    5  apt-get install sshserver
+    6  apt-get install openssh
+    7  apt-get update
+    8  apt-get install openssh-server
+    9  apt-get install openssh-server rtl-sdr gqrx
+   10  apt-get install openssh-server rtl-sdr gqrx-sdr
+   11  ls -l
+   12  ssh-keygen -A
+   13  adduser -D capacita
+   14  adduser capacita
+   15  /usr/sbin/sshd 
+   16  sudo mkdir /run/sshd
+   17  mkdir /run/sshd
+   18  chmod 755 /run/sshd
+   19  /usr/sbin/sshd 
+   20  ss -lnt
+   21  apt-get install net-tools
+   22  nestat
+   23  ss
+   24  netstat 
+   25  netstat -l
+   26  netstat -ln
+   27  history
+
+
+root@5bb42700316f:/home/capacita# history 
+    1  apt-get install sshd
+    2  apt-get install openssh-server
+    3  shs
+    4  apt-get install ssh-server
+    5  apt-get install sshserver
+    6  apt-get install openssh
+    7  apt-get update
+    8  apt-get install openssh-server
+    9  apt-get install openssh-server rtl-sdr gqrx
+   10  apt-get install openssh-server rtl-sdr gqrx-sdr
+   11  ls -l
+   12  ssh-keygen -A
+   13  adduser -D capacita
+   14  adduser capacita
+   15  /usr/sbin/sshd 
+   16  sudo mkdir /run/sshd
+   17  mkdir /run/sshd
+   18  chmod 755 /run/sshd
+   19  /usr/sbin/sshd 
+   20  ss -lnt
+   21  apt-get install net-tools
+   22  nestat
+   23  ss
+   24  netstat 
+   25  netstat -l
+   26  netstat -ln
+   27  history
+   28  exit
+   29  ls -l
+   30  netstat
+   31  netstat -l
+   32  /usr/sbin/sshd 
+   33  netstat -l
+   34  passwd 
+   35  cd /home/capacita/
+   36  ls -l
+   37  ls -la
+   38  cd /root/
+   39  ls -l
+   40  ls -la
+   41  ls -l
+   42  cd /etc/ssh/
+   43  ls -l
+   44  vi ssh_config
+   45  apt-get install vi 
+   46  apt-get install nvi 
+   47  ls -l
+   48  vi ssh_config
+   49  cat ssh_config
+   50  vi ssh_config
+   51  ps aux
+   52  kill 60 
+   53  /usr/sbin/sshd 
+   54  apt-get install xorg-server
+   55  apt-get update 
+   56  apt-get install xorg-server
+   57  apt-get install x11-common
+   58  ls -l
+   59  startx
+   60  ls -l
+   61  cd /home/capacita/
+   62  ls -l
+   63  hisotry
+   64  history 
