@@ -10,6 +10,7 @@ services:
       - '1025:22' # sshservice port
     volumes:
       - "/dev/:/dev/"
+      - "/run/dbus:/run/dbus"
       - "./out/:/outputfiles/"
       - "/tmp/.X11-unix:/tmp/.X11-unix"
     privileged: true
@@ -17,4 +18,4 @@ services:
       context: .
       dockerfile: ./docker/Dockerfile
     environment:
-      - "DISPLAY=$DISPLAY"
+      - "DISPLAY=:0"
