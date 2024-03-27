@@ -10,7 +10,7 @@ services:
       - '1025:22' # sshservice port
     volumes:
       - "/dev/:/dev/"
-      - "/run/dbus:/run/dbus"
+      - "/run/:/run/"
       - "./out/:/outputfiles/"
       - "/tmp/.X11-unix:/tmp/.X11-unix"
     privileged: true
@@ -19,3 +19,4 @@ services:
       dockerfile: ./docker/Dockerfile
     environment:
       - "DISPLAY=:0"
+      - "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR"
