@@ -1,11 +1,12 @@
+#!/bin/bash 
 
 # Nome do usuário
-username="seunomedeusuario"
+username="capacita"
 # Senha do usuário
-password="suasenha"
+password="1234567890"
 
 # Create user/passwd for access the container: 
-sudo useradd -m -s /bin/bash "$username
+sudo useradd -m -s /bin/bash "$username"
 echo "$username:$password" | sudo chpasswd
 
 # starts pulse audio service: 
